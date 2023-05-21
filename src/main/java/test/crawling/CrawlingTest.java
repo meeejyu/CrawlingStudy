@@ -47,10 +47,7 @@ public class CrawlingTest {
 		
 		int count = 0;
 		for (int i = 0; i < element2.size(); i++) {
-			
-			System.out.println("ㅎㅇ");
 			System.out.println(++count + "번 태그: "+ element2.get(i).getText());
-			System.out.println("ㅂㅇ");
 		}
 		
 		try {
