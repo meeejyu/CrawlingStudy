@@ -43,8 +43,7 @@ public class CrawlingTest {
 
 		// div 태그안에 클래스 이름이 'tags'인 a태그를 가진 모든 element를 받아온다.
 		List<WebElement> element2 = element1.findElements(By.tagName("a"));
-		
-		
+
 		int count = 0;
 		for (int i = 0; i < element2.size(); i++) {
 			System.out.println(++count + "번 태그: "+ element2.get(i).getText());
